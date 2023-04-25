@@ -1,56 +1,75 @@
-.nav_bar{
-    position: fixed;
+.navbar{
     background: rgb(10, 19, 101);
-}
-
-.section-list{
-    width: 80%;
-    height: 30px;
-    margin-right: 20px;
-}
-.list-menu{
+    padding: 5px 20px;
     display: flex;
-    justify-content: flex-end;
-    list-style: none;
-    margin: 0;
-    padding: 0; 
-    color: #ccd6f6; 
-}
-.list-menu li{
-    margin: 10px;
-    font-size: 14px;
-    
+    align-items: center;
+    height: 90px;
 }
 
-.list-menu li a{
-    text-decoration: none;
+.navbar img{
+    width: 100px;
+    margin-right: 10px;
+}
+
+.list-menu a{
     color: #ccd6f6;
 }
 
-.list-menu li a:hover{
-    /*transition: all 1s;*/
+.list-menu a:hover{
     color: #64ffda;
-    background: grey;
-    border-radius: 2px;
-}
-a{
-    width: 15%;
-}
-.contLogo img{
-    width: 80%;
-    height: 80%;
-    padding-left: 10px;
-
 }
 
-.textlogin{
+.contLogo{
+    flex: 1;
+}
+
+.list-menu{
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+
+.list-menu li{
+    padding: 15px 10px;
+    font-weight: 600;
+}
+
+.toggle{
+    font-size: 30px;
+    display: none;
+}
+
+a,a:hover{
     text-decoration: none;
-    color: #64ffda;
-    font-size: 12px;
 }
 
 .textlogin img{
-    width: 24px;
-    height: 24px;
-    margin-right: 10px;
+    height: 20px;
+    width: 20px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+
+@media screen and (max-width: 600px){
+    .navbar{
+        display: block;
+        position: relative;
+        padding: 15px 20px;
+    }
+
+    .list-menu{
+        margin-top: 15px;
+        display: none;
+    }
+
+    .list-menu.active, .toggle{
+        display: block;
+    }
+
+    .toggle{
+        position: absolute;
+        top: 15px;
+        right: 20px;
+    }
 }
