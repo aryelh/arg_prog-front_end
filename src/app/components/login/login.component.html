@@ -1,0 +1,46 @@
+<div class="boxform">
+  <p class="texttop">Login</p>
+  <form [formGroup]="form" (ngSubmit)="onEnviar($event)">
+      <div class="mb-3">
+        <label for="exampleInputEmail1" class="form-label">Email address</label>
+        <input type="email" formControlName="email" 
+        [ngClass]="{'is-invalid': Email?.errors && Email?.touched, 'is-valid': !Email?.errors && Email?.touched}"
+        class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+        
+        <div *ngIf="Email?.errors && Email?.touched">
+          <p *ngIf="Email?.hasError('required')" class="text-danger">Email is required.</p>
+          <p *ngIf="Email?.hasError('email')" class="text-danger">Email format is invalid.</p>
+        </div>        
+        <!-- <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div> -->
+      </div>
+      <div class="mb-3">
+        <label for="exampleInputPassword1" class="form-label">Password</label>
+        <input type="password" formControlName="password" 
+        [ngClass]="{'is-invalid': Password?.errors && Password?.touched, 
+        'is-valid': !Password?.errors && Password?.touched}"
+        class="form-control" id="exampleInputPassword1">
+        
+        <div *ngIf="Password?.errors && Password?.touched">
+          <p *ngIf="Password?.hasError('required')" class="text-danger">Password is required.</p>
+          <p *ngIf="Password?.hasError('minlength')" class="text-danger">Password should contain 8 characters.</p>
+        </div>
+
+      </div>
+      <div class="mb-3 form-check">
+        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+        <label class="form-check-label" for="exampleCheck1">Check me out</label>
+      </div>
+      <div class="boxbutton">
+      <button type="submit" class="btn btn-primary">Submit</button>
+    </div>
+    <ul class="textbottom">
+      <li class="forgot">
+        <a href="">Forgot password?</a>
+        </li>
+      <li class="signup"routerLink="register">
+        <a href="register">Not a member? Signup now</a>
+      </li>
+    </ul>
+  </form>
+</div>
+<app-footer></app-footer>

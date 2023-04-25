@@ -1,0 +1,39 @@
+.texttop{
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 40px;
+}
+.boxform{
+    padding-top: 100px;
+}
+form{
+    width: 350px;
+    margin: auto;
+    height: 400px;
+    border: 2px solid #ccd6f6;
+    padding: 20px;
+    background-color: #112240;
+    border-radius: 10px;
+}
+
+.boxbutton{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.btn{
+    width: 80%;
+}
+
+.textbottom{
+    margin-top: 15px;
+    font-size: 14px;
+    list-style: none;
+}
+.forgot{
+    margin-bottom: 5px;   
+}
+
+a{
+    text-decoration: none;
+}

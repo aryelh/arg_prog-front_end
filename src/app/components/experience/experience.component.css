@@ -1,0 +1,43 @@
+.containerEx{
+   /*border: solid 1px #B0B3AF;*/
+    width: 550px;
+    height: 250px;
+    margin-left: 150px;
+    /* margin-top: 150px; */
+
+    display: grid;
+    gap: 1rem;
+    grid-auto-rows: 22rem;
+    grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr));
+}
+.textExpe{
+    position: relative;
+    padding-top: 100px;
+    margin-left: 50px;
+    color: #64ffda;
+}
+
+
+hr{
+    margin-left: 190px;
+    margin-bottom: 30px;
+    height: 3px;
+    width: 150px; 
+}
+
+.listExpe{
+    margin-left: 50px;
+    border-left: solid 1px #B0B3AF;
+    
+}
+.one{
+    text-decoration: underline;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+p{
+    padding-left: 50px;
+    color: #8892b0;
+    margin-bottom: 0;
+}

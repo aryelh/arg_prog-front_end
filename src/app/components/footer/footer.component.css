@@ -1,0 +1,29 @@
+.container{
+    position: fixed;
+    bottom: 20px;
+    left: 30px;
+    width: 35px;
+
+}
+
+.redes a img{
+    width: 30px;
+    height: 30px;
+    margin-top: 20px;
+    line-height: 20px;
+    text-align: center;
+    border-radius: 50%;
+}
+
+.redes{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.line{
+    height: 90px;
+    border-left: 2px #ccd6f6 solid;
+    margin-left: 14px;
+    margin-top: 20px; 
+}

@@ -1,0 +1,56 @@
+.nav_bar{
+    position: fixed;
+    background: rgb(10, 19, 101);
+}
+
+.section-list{
+    width: 80%;
+    height: 30px;
+    margin-right: 20px;
+}
+.list-menu{
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+    margin: 0;
+    padding: 0; 
+    color: #ccd6f6; 
+}
+.list-menu li{
+    margin: 10px;
+    font-size: 14px;
+    
+}
+
+.list-menu li a{
+    text-decoration: none;
+    color: #ccd6f6;
+}
+
+.list-menu li a:hover{
+    /*transition: all 1s;*/
+    color: #64ffda;
+    background: grey;
+    border-radius: 2px;
+}
+a{
+    width: 15%;
+}
+.contLogo img{
+    width: 80%;
+    height: 80%;
+    padding-left: 10px;
+
+}
+
+.textlogin{
+    text-decoration: none;
+    color: #64ffda;
+    font-size: 12px;
+}
+
+.textlogin img{
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+}

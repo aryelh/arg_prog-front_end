@@ -1,0 +1,29 @@
+.texttop{
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+.boxform{
+    padding-top: 70px;
+}
+form{
+    width: 350px;
+    margin: auto;
+    height: 500px;
+    border: 2px solid #ccd6f6;
+    padding: 20px;
+    background-color: #112240;
+    border-radius: 10px;
+}
+
+.boxbutton{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.btn{
+    width: 80%;
+
+}
+
+
