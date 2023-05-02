@@ -1,7 +1,6 @@
 .container{
     display: flex;
-    align-items: flex-end;
-    margin-left: 220px;
+    padding-left: 220px;
     margin-top: 30vh;
 }
 
@@ -24,7 +23,7 @@
 }
 
 .part_2{
-    width: 50%;
+    width: 70%;
     color: #ccd6f6;
     font-size: clamp(40px, 8vw, 65px);
     font-weight: 600;

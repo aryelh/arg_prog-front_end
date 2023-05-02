@@ -1,0 +1,31 @@
+{
+    "name": "Sandy Ariel Cruz",
+    "aboutMe": "Soy programador Web Full Stack que se especializa en crear (y ocacionalmente diseñar) experiencias digitales excepcionales. Actuelmente, me centro en la creación de productos accesibles.",
+    "experience": [{
+        "title": "Front End depeloper",
+        "date": "2019 - 2020",
+        "company": "Freelancer",
+        "work": "Mantenimiento y actualización del sistema de ventas"
+    },
+    {
+        "title": "Back End depeloper",
+        "date": "2020 - 2022",
+        "company": "Freelancer",
+        "work": "Mantenimiento y actualización del sistemas"
+    }],
+    "education": [{
+        "college":"Tecnologico Industrial B.C.",
+        "date": "Graduado en 1993",
+        "title": "Bachiller Tecnico en Mecanica Industrial"    
+    },
+    {
+        "college":"INTI - Argentina Programa",
+        "date": "Graduado en 2023",
+        "title": "Programador web full stack"   
+    }
+    ],
+    "skills": [{
+        
+
+    }]
+}

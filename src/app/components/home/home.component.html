@@ -5,11 +5,17 @@
     
     <div class="text">
         <p class="part_1">Hola, mi nombre es</p>
-        <p class="part_2">Sandy Ariel Cruz.</p>
-        <p class="part_3">Soy programador Web Full Stack que se especializa
-            en crear (y ocacionalmente diseñar) experiencias digitales excepcionales.
-            Actuelmente, me centro en la creación de productos accesibles.
-        </p>
+
+        <section>
+            <p class="part_2" *ngFor="let sentence of myData">
+                {{sentence}}
+            </p>
+        </section>
+        <section>
+            <p class="part_3" *ngFor="let sentence of aboutMe">
+                {{sentence}}
+            </p>
+        </section>
     </div>
 </div>
 <app-footer></app-footer>

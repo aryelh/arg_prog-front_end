@@ -7,6 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ExperienceComponent implements OnInit {
 
+
   constructor() { }
 
   ngOnInit(): void {

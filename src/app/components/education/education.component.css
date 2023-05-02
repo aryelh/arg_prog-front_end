@@ -1,36 +1,28 @@
-.containerEd{
-    /*border: solid 1px #B0B3AF;*/
-     width: 450px;
-     height: 150px;
-     margin-left: 250px;
-     /* margin-top: 150px;     */
- }
+.containerEd{ 
+    height: 100vh;
+    margin-left: 250px;
+}
 
 .textEdu{
-    position: relative; 
     color: #64ffda;
+}
+.education{
+    width: 400px;
     padding-top: 100px;
-    margin-left: 50px;
-}
-hr{
-    margin-left: 190px;
-    margin-bottom: 30px;
-    height: 3px;
-    width: 150px; 
-}
-.listEdu{
-    margin-left: 50px;
-    border-left: solid 1px #B0B3AF;
-    
-}
-.two{
-    text-decoration: underline;
-    font-size: 20px;
-    margin-bottom: 10px;
+    margin-left: 500px;
 }
 
-p{
-    padding-left: 50px;
+.listEdu{
+    margin-left: 550px;
+    display: flex;
+    flex-direction: column;
+}
+
+.two{
     color: #8892b0;
-    margin-bottom: 0;
+    font-weight: 600;
+}
+
+.listOne{
+    margin-bottom: 30px;
 }
