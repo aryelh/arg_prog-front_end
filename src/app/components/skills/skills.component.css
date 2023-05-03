@@ -7,6 +7,7 @@
     margin-left: 15%;
     color: #64ffda;
 }
+
 hr{
     margin-left: 420px;
     margin-bottom: 30px;
@@ -18,23 +19,24 @@ hr{
     background-color: #112240;
 }
 
-.column{
+section{
     display: grid;
-    gap: 0.5em;
-    margin-left: 200px;
-    margin-top: 50px;
-    margin-right: 30px;
+    gap: 1em;
+    margin: 40px 30px 0px 200px;
 }
+
 .skills{
     padding: 1em, 0;
     padding-left: 5px;
 }
+
 .skills__item{
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding-right: 10px;
 }
+
 .skills__bar,
 .skills__bar::after{
     position: relative;
@@ -44,6 +46,7 @@ hr{
     border-radius: 4px;
     overflow: hidden;
 }
+
 .skills__bar::after{
     content: '';
     position: absolute;
@@ -52,6 +55,7 @@ hr{
     transition: color 0.1s, background-color 0.2s ease-in-out;
     animation: skills-bar-fill 2s ease-in-out forwards;
 }
+
 .skills__bar--70::after{
     transform: translateX(70%);
 }

@@ -5,16 +5,10 @@
     </div>
 
     <div class="listEdu">
-        <div class="listOne">
-            <h4 class="two">{{miPortfolio.education[0].college}}</h4>
-                <p class="two_date">{{miPortfolio.education[0].date}}</p>
-                <p class="two_title">{{miPortfolio.education[0].title}}</p>
-        </div>
-        
-        <div class="listTwo">
-            <h4 class="two">{{miPortfolio.education[1].college}}</h4>
-                <p class="two_date">{{miPortfolio.education[1].date}}</p>
-                <p class="two_title">{{miPortfolio.education[1].title}}</p>
+        <div class="listOne" *ngFor="let education of educationList">
+            <h4 class="two">{{education.college}}</h4>
+                <p class="two_date">{{education.date}}</p>
+                <p class="two_title">{{education.title}}</p>
         </div>
     </div>
 

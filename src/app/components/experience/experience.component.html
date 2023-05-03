@@ -3,19 +3,14 @@
         <h3 class="textExpe">Experience</h3>
         <hr>
     </div>
-    <div class="listExpe">
-        <div class="card-one">
-            <h4 class="one">{{miPortfolio.experience[0].title}}</h4>
-                <p class="one_date">{{miPortfolio.experience[0].date}}</p>
-                <p class="one_company">{{miPortfolio.experience[0].company}}</p>
-                <p class="one_works">{{miPortfolio.experience[0].work}}</p>
+    <section>
+        <div class="listExpe" *ngFor="let experience of experienceList">
+            <div class="card-one">
+                <h4 class="one">{{experience.title}}</h4>
+                    <p class="one_date">{{experience.date}}</p>
+                    <p class="one_company">{{experience.company}}</p>
+                    <p class="one_works">{{experience.work}}</p>
+            </div>
         </div>
-
-        <div card-two>
-            <h4 class="one">{{miPortfolio.experience[1].title}}</h4>
-                <p class="one_date">{{miPortfolio.experience[1].date}}</p>
-                <p class="one_company">{{miPortfolio.experience[1].company}}</p>
-                <p class="one_works">{{miPortfolio.experience[1].work}}</p>
-        </div>
-    </div>
+    </section>
 </div>

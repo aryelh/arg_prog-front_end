@@ -1,49 +1,75 @@
 {
     "name": "Sandy Ariel Cruz",
-    "aboutMe": "Soy programador Web Full Stack que se especializa en crear (y ocacionalmente diseñar) experiencias digitales excepcionales. Actuelmente, me centro en la creación de productos accesibles.",
-    "experience": [{
-        "title": "Front End depeloper",
+    "aboutMe": "Soy programador Web Full Stack que se especializa en crear (y ocacionalmente diseñar) experiencias digitales excepcionales. Actualmente, me centro en la creación de productos accesibles.",
+    "experience": [
+        {
+        "title": "Front End Depeloper",
         "date": "2019 - 2020",
         "company": "Freelancer",
         "work": "Mantenimiento y actualización del sistema de ventas"
-    },
-    {
-        "title": "Back End depeloper",
+        },
+        {
+        "title": "Back End Depeloper",
         "date": "2020 - 2022",
         "company": "Freelancer",
         "work": "Mantenimiento y actualización del sistemas"
-    }],
-    "education": [{
+        }
+    ],
+    "education": [
+        {
         "college":"Tecnologico Industrial B.C.",
         "date": "Graduado en 1993",
         "title": "Bachiller Tecnico en Mecanica Industrial"    
-    },
-    {
+        },
+        {
         "college":"INTI - Argentina Programa",
         "date": "Graduado en 2023",
         "title": "Programador web full stack"   
-    }
+        }
     ],
-    "skills":[{
-        "front_end":["HTML","CSS","JavaScript"],
-        "back_end":[
-            "Java",
-            "JavaScript",
-            "MySQL"
-        ],
-        "soft_skills":[
-            "Responsabilidad",
-            "Comunicativo",
-            "Colaborativo",
-            "Trabajo en equipo",
-            "Autodidacta"
-        ]
-    }],
+    "skills":[
+        {
+        "title":"Front End",
+        "skill":["HTML","CSS","JavaScript","Java","new1"]
+        },
+        {    
+        "title":"Back End",
+        "skill":["Java","JavaScript","MySQL","new1","new2"]
+        },
+        {
+        "title":"Soft Skills",
+        "skill":["Responsabilidad","Comunicativo","Colaborativo","Trabajo en equipo","Autodidacta"]
+        },
+        {
+        "title":"Others",
+        "skill":["Angular", "React", "Express","Node", "jQuery"]
+        }
+    ],
     "projects":[
-        "Mercado Liebre",
-        "Sunflower",
-        "Portfolio",
-        "Otro",
-        "Otro_dos"
+        {
+        "title": "MercadoLiebre",
+        "description": "Pagina estatica construida con css, html, java script y node Modelo de pagina market place muy conocida.",
+        "link":"https://github.com/aryelh/proyectoMercado"
+        },
+        {
+        "title": "Sunflower",
+        "description": "Market place funcional, se trabajó colavorativamente con otros dos programadores.",
+        "link": "https://github.com/juliaburun/Sunflower"
+        },
+        {
+        "title": "Portfolio",
+        "description": "Portfolio personal construido con html, css, java, angular, bootstrap y springboot.",
+        "link": "https://github.com/aryelh/portfolio-FrontEnd"
+        },
+        {
+        "title": "Otro",
+        "description": "Some quick example text to build on the card title and make up the bulk of the card's content.",
+        "link": ""
+        },
+        {
+        "title": "Otro",
+        "description": "Some quick example text to build on the card title and make up the bulk of the card's content.",
+        "link": ""
+        }
     ]
 }

@@ -16,12 +16,11 @@
     width: 150px;
  }
  
- .listPro{
+ section{
    display: flex;
    flex-wrap: wrap;
    gap: 20px;
    width: 100%;
-
  }
  
  .card{

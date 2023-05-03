@@ -1,67 +1,33 @@
 <div class="containerSki">
 <h3 class="textSkills">Hard & Soft Skills</h3>
 <hr>
-    <section class="column column--right">
-        <article class="card">
-            <h2 class="card__title">Front End</h2>
-                <div class="skills">
-                    <div class="skills__item">
-                        <p class="skills__tech">{{miPortfolio.skills[0]}}</p>
-                    <div class="skills__bar skills__bar--70"></div>
-                </div>
-                <div class="skills__item">
-                    <p class="skills__tech">CSS</p>
-                <div class="skills__bar skills__bar--50"></div>
-            </div>
-            <div class="skills__item">
-                <p class="skills__tech">JavaScript</p>
-            <div class="skills__bar skills__bar--40"></div>
+    <section class="column column--right" >
+        <div *ngFor="let skills of skillsList">
+            <article class="card">
+                <h2 class="card__title">{{skills.title}}</h2>
+                    <div class="skills">
+                        <div class="skills__item">
+                            <p class="skills__tech">{{skills.skill[0]}}</p>
+                            <div class="skills__bar skills__bar--70"></div>
+                        </div>
+                        <div class="skills__item">
+                            <p class="skills__tech">{{skills.skill[1]}}</p>
+                            <div class="skills__bar skills__bar--50"></div>
+                        </div>
+                        <div class="skills__item">
+                            <p class="skills__tech">{{skills.skill[2]}}</p>
+                            <div class="skills__bar skills__bar--40"></div>
+                        </div>
+                        <div class="skills__item">
+                            <p class="skills__tech">{{skills.skill[3]}}</p>
+                            <div class="skills__bar skills__bar--40"></div>
+                        </div>
+                        <div class="skills__item">
+                            <p class="skills__tech">{{skills.skill[4]}}</p>
+                            <div class="skills__bar skills__bar--40"></div>
+                        </div>
+                    </div>
+            </article>
         </div>
-            </div>
-        </article>
-
-        <article class="card">
-            <h2 class="card__title">Back End</h2>
-                <div class="skills">
-                    <div class="skills__item">
-                        <p class="skills__tech">Java</p>
-                    <div class="skills__bar skills__bar--70"></div>
-                </div>
-                <div class="skills__item">
-                    <p class="skills__tech">JavaScript</p>
-                <div class="skills__bar skills__bar--50"></div>
-            </div>
-            <div class="skills__item">
-                <p class="skills__tech">MySQL</p>
-            <div class="skills__bar skills__bar--40"></div>
-        </div>
-            </div>
-        </article>
-
-        <article class="card">
-            <h2 class="card__title">Soft Skills</h2>
-            <div class="skills">
-                <div class="skills__item">
-                        <p class="skills__tech">Responsabilidad</p>
-                    <div class="skills__bar skills__bar--70"></div>
-                </div>
-                <div class="skills__item">
-                        <p class="skills__tech">Comunicativo</p>
-                    <div class="skills__bar skills__bar--50"></div>
-                </div>
-                <div class="skills__item">
-                        <p class="skills__tech">Colaborativo</p>
-                    <div class="skills__bar skills__bar--40"></div>
-                </div>
-                <div class="skills__item">
-                    <p class="skills__tech">Trabajo en equipo</p>
-                <div class="skills__bar skills__bar--40"></div>
-                </div>
-                <div class="skills__item">
-                    <p class="skills__tech">Autodidacta</p>
-                <div class="skills__bar skills__bar--40"></div>
-                </div>
-            </div>
-        </article>
     </section>
 </div>

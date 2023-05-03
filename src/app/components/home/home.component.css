@@ -5,15 +5,13 @@
 }
 
 .container-photo img{
-    border-radius: 50%;
-    width: 200px;   
+    width: 300px;   
 }
 
 .text{
     display: flex;
     flex-direction: column;
     margin-left: 150px;
-
 }
 
 .part_1{
@@ -31,7 +29,7 @@
 }
 
 .part_3{
-    width: 70%;
+    width: 80%;
     font-family:monospace;
     font-size: 16px;
     color: #8892b0;
