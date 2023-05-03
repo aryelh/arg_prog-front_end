@@ -1,7 +1,7 @@
 .container{
     display: flex;
     padding-left: 220px;
-    margin-top: 30vh;
+    margin-top: 35vh;
 }
 
 .container-photo img{
@@ -13,6 +13,7 @@
     display: flex;
     flex-direction: column;
     margin-left: 150px;
+
 }
 
 .part_1{

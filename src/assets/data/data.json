@@ -24,8 +24,26 @@
         "title": "Programador web full stack"   
     }
     ],
-    "skills": [{
-        
-
-    }]
+    "skills":[{
+        "front_end":["HTML","CSS","JavaScript"],
+        "back_end":[
+            "Java",
+            "JavaScript",
+            "MySQL"
+        ],
+        "soft_skills":[
+            "Responsabilidad",
+            "Comunicativo",
+            "Colaborativo",
+            "Trabajo en equipo",
+            "Autodidacta"
+        ]
+    }],
+    "projects":[
+        "Mercado Liebre",
+        "Sunflower",
+        "Portfolio",
+        "Otro",
+        "Otro_dos"
+    ]
 }

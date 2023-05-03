@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { PortfolioService } from 'src/app/servicios/portfolio.service';
 
 @Component({
   selector: 'app-home',
@@ -7,16 +8,14 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HomeComponent implements OnInit {
 
-  myData: String[] = [
-    'Sandy Ariel Cruz.'
-  ];
-  aboutMe: String[] = [
-    'Soy programador Web Full Stack que se especializa en crear (y ocacionalmente diseñar) experiencias digitales excepcionales. Actuelmente, me centro en la creación de productos accesibles.'
-  ];
-
-  constructor() { }
+  miPortfolio:any;
+  constructor(private datosPortfolio:PortfolioService) { }
 
   ngOnInit(): void {
+    this.datosPortfolio.obtenerDatos().subscribe(data=>{
+      console.log(data);
+      this.miPortfolio=data;
+    });
   }
 
 }
