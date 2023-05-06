@@ -71,5 +71,26 @@
         "description": "Some quick example text to build on the card title and make up the bulk of the card's content.",
         "link": ""
         }
+    ],
+    "users":[
+        {
+            "name":"aryelh",
+            "email": "ary@gmail.com",
+            "password": 11111111,
+            "password2-user": 11111111
+        },
+        {
+            "user-name":"gloria",
+            "email-user": "gloria@gmail.com",
+            "password-user": 22222222,
+            "password2-user": 22222222
+        },
+        {
+            "user-name":"pepito",
+            "email-user": "pepito@gmail.com",
+            "password-user": 33333333,
+            "password2-user": 33333333
+        }
+       
     ]
 }

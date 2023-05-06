@@ -25,11 +25,11 @@ export class LoginComponent implements OnInit {
   }
   get Email()
   {
-    return this.form.get('email');
+    return this.form.get('email');//aca quitar.user
   }
   get Password()
   {
-    return this.form.get('password');
+    return this.form.get('password');//aca quitar.user
   }
 
   onEnviar(event:Event)
