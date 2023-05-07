@@ -14,7 +14,7 @@ export class ProjectsComponent implements OnInit {
 
   ngOnInit(): void {
     this.datosPortfolio.obtenerDatos().subscribe(data=>{
-      this.projectsList=data.projects;
+      this.projectsList=data;//aca iba .projects
     });
   }
 

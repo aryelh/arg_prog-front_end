@@ -15,7 +15,7 @@ export class SkillsComponent implements OnInit {
 
   ngOnInit(): void {
     this.datosPortfolio.obtenerDatos().subscribe(data=>{
-      this.skillsList=data.skills;
+      this.skillsList=data;//aca iba .skills
     });
   }
 
